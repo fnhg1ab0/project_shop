@@ -882,33 +882,30 @@ html {
     right: 50px;
 }
 
-@media only screen and (max-width: 1168px) {
+@media only screen and (max-width: 800px) {
     .tablet-date {
         display: none;
     }
     .date-btn {
         position: absolute;
         right: 15%;
-        transform: translateY(-15%);
+        transform: translateX(100%);
+        top: 33%;
+    }
+    .date-picture {
+        opacity: 0.6;
+    }
+    .time-date {
+        width: 80%;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .mobile-date {
-        display: none;
-    }
+@media only screen and (max-width: 480px) {
     .time-item {
         margin: 0 8px;
-    }
-
-    .date_content {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+    }   
+    .mobile-date {
+        display: none;
     }
     .sub_title-date {
         font-size: 1.5rem;
@@ -922,9 +919,15 @@ html {
         bottom: 5%;
         transform: translateX(-50%) translateY(190%);
     }
-}
-
-@media only screen and (max-width: 480px) {
+    .date_content {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
     .col {
         width: 250px;
         position: absolute;
