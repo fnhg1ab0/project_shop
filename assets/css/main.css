@@ -917,7 +917,7 @@ html {
         position: absolute;
         left: 50%;
         bottom: 5%;
-        transform: translateX(-50%) translateY(190%);
+        transform: translateX(-50%) translateY(300%);
     }
     .date_content {
         position: absolute;
