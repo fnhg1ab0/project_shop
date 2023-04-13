@@ -924,6 +924,21 @@ html {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .col {
+        width: 250px;
+        position: absolute;
+        left: 18%;
+        transform: translateX(-50%);
+        transform: translateY(270%);
+    }
+    .time-date {
+        width: 82%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* Seller */
 .seller {
     margin-bottom: 64px;
