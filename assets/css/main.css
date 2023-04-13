@@ -778,6 +778,9 @@ html {
         gap: 10px;
         font-size: 0.8rem;
     }
+    .product_cart {
+        padding: 11px;
+    }
 }
 
 /* Date */
