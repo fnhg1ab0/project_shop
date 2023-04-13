@@ -1208,7 +1208,7 @@ html {
 
 .boot-content {
     color: white;
-    background: url("/assets/img/boot/boot.jpg") no-repeat center / cover;
+    background: url("./boot/boot.jpg") no-repeat center / cover;
     height: 300px;
     width: 1200px;
     position: relative;
